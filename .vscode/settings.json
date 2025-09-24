@@ -1,0 +1,12 @@
+{
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "--color=yes",
+        "--tb=short",
+        "-v",
+        "--cov=use_cases",
+        "--cov=core",
+        "--cov-report=term-missing"
+    ]
+}
